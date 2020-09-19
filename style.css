@@ -77,21 +77,26 @@ nav a:visited {
 /*nav*/
 main {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 200px  auto auto auto auto;
     grid-template-rows: 100px 100px 100px ;
     padding-left: 200px;
-    padding-right: 50px;
+    padding-right: 200px;
 }
 .img1 {
     grid-row:1/2;
-    grid-column: 2/4;
+    grid-column: 3/4;
      text-align: left;
      height: 280px;
      width: auto;
-     padding-left: 30px;
+     padding-left: 10px;
+}
+h2{
+    grid-row: 1/2;
+    grid-column: 2/3;
 }
 nav{
     grid-row: 2/3;
+    grid-column: 2/3;
 }
 footer{
     display: grid;
