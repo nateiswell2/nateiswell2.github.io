@@ -36,6 +36,7 @@ h2 {
     font-family: "Aclonica", serif;
     color: #c3073f;
     text-align: center;
+    text-decoration: underline;
 }
 
 /*nav*/
@@ -76,15 +77,34 @@ nav a:visited {
 /*nav*/
 main {
     display: grid;
-    grid-template-columns: 400 400 400px;
+    grid-template-columns: auto;
     grid-template-rows: 100px 100px 100px ;
+    padding-left: 200px;
+    padding-right: 50px;
 }
 .img1 {
     grid-row:1/2;
-    grid-column: 4/5;
-    height: 250px;
-     width: 200px;
+    grid-column: 2/4;
+     text-align: left;
+     height: 280px;
+     width: auto;
+     padding-left: 30px;
 }
 nav{
     grid-row: 2/3;
+}
+footer{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 100px 100px ;
+    text-align: center;
+}
+p1 {
+    grid-row: 1;
+}
+p1 :visited{
+    color: #950740;
+}
+p2{
+    grid-row: 2;
 }
